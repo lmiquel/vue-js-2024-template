@@ -12,27 +12,26 @@
     "dev": {
       "name": "dev",
       "command": "npm run dev",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 5173
+      }
     },
     "build": {
       "name": "build",
-      "command": "npm run build",
-      "runAtStart": false
+      "command": "npm run build"
     },
     "preview": {
       "name": "preview",
-      "command": "npm run preview",
-      "runAtStart": false
+      "command": "npm run preview"
     },
     "lint": {
       "name": "lint",
-      "command": "npm run lint",
-      "runAtStart": false
+      "command": "npm run lint"
     },
     "format": {
       "name": "format",
-      "command": "npm run format",
-      "runAtStart": false
+      "command": "npm run format"
     }
   }
 }
