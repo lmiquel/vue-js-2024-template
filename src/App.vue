@@ -1,11 +1,16 @@
 <script setup>
-import NikeView from './views/NikeView.vue'
-import AdidasView from './views/AdidasView.vue'
+import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <NikeView />
-  <AdidasView />
+  <header>
+      <nav>
+        <RouterLink to="/adidas">Adidas</RouterLink>
+        <RouterLink to="/nike">Nike</RouterLink>
+      </nav>
+  </header>
+
+  <RouterView />
 </template>
 
 <style scoped></style>
