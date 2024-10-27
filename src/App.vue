@@ -4,10 +4,11 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-      <nav>
-        <RouterLink to="/adidas">Adidas</RouterLink>
-        <RouterLink to="/nike">Nike</RouterLink>
-      </nav>
+    <nav>
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/adidas">Adidas</RouterLink>
+      <RouterLink to="/nike">Nike</RouterLink>
+    </nav>
   </header>
 
   <RouterView />
