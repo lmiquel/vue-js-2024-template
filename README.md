@@ -1,35 +1,5 @@
-# vue-js-template
+## Créer un composant dans `ItemCard.vue` destiné à afficher les données d'une entreprise
 
-This template should help get you started developing with Vue 3 in Vite.
+## Utiliser ce composant pour afficher les données des entrerpises Nike et Adidas (déjà enregistrée dans le fichier `data.js`)
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## Le composant `ItemCard` devra être utilisé dans les fichiers `AdidasView.vue`et`NikeView.vue`
