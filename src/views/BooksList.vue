@@ -1,3 +1,7 @@
-<script setup></script>
+<script setup>
+import ItemList from '../components/ItemList.vue'
+</script>
 
-<template></template>
+<template>
+  <ItemList />
+</template>
